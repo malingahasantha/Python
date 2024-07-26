@@ -15,3 +15,6 @@ Python is a dynamically type language. we can change a defined variable value in
 
 ### conditional statement
 usage of if else elif condition
+
+### nested if else
+Handle conditions with nested if else statements.
