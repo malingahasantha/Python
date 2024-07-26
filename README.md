@@ -12,3 +12,6 @@ Python data types. Python data types with examples. integer, float, strings...
 
 ### dynamically type
 Python is a dynamically type language. we can change a defined variable value in runtime.
+
+### conditional statement
+usage of if else elif condition
