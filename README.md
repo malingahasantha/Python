@@ -18,3 +18,6 @@ usage of if else elif condition
 
 ### nested if else
 Handle conditions with nested if else statements.
+
+### Formatted Print. Print output in formatted manner
+We can use all 4 methods I define here and last one is the latest method. 
