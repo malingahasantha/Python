@@ -21,3 +21,6 @@ Handle conditions with nested if else statements.
 
 ### Formatted Print. Print output in formatted manner
 We can use all 4 methods I define here and last one is the latest method. 
+
+### Getting User Inputs
+We can get user inputs using input() function. 
