@@ -14,13 +14,23 @@ Python data types. Python data types with examples. integer, float, strings...
 Python is a dynamically type language. we can change a defined variable value in runtime.
 
 ### conditional statement
-usage of if else elif condition
+Usage of if else elif condition
 
 ### nested if else
 Handle conditions with nested if else statements.
 
-### Formatted Print. Print output in formatted manner
+### formatted Print. Print output in formatted manner
 We can use all 4 methods I define here and last one is the latest method. 
 
-### Getting User Inputs
+### getting User Inputs
 We can get user inputs using input() function. 
+
+### 9. in and not in operators
+To check any strings, characters in a varible.
+
+### 10. indexing
+Access the string value in a variable. Access the charactes in variable.
+
+### 11. methods
+We use methods and fuctions to get done some specific works.
+upper, lower, title, capitalize, find, rfind, index, center, ljust, rjust, strip, lstrip, rstrip
