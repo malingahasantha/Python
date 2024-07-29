@@ -34,3 +34,6 @@ Access the string value in a variable. Access the charactes in variable.
 ### 11. methods
 We use methods and fuctions to get done some specific works.
 upper, lower, title, capitalize, find, rfind, index, center, ljust, rjust, strip, lstrip, rstrip
+
+### 12. string methods further
+use methodds - startswith, endswith, replace, join, split, splitlines
