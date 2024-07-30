@@ -37,3 +37,6 @@ upper, lower, title, capitalize, find, rfind, index, center, ljust, rjust, strip
 
 ### 12. string methods further
 use methodds - startswith, endswith, replace, join, split, splitlines
+
+### 13. list data types
+uses of list data type and return values in a list using index. uses of methods to add and remove values to list. append(), extend(), insert(), pop(), remove(), clear()

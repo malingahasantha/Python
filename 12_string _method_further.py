@@ -46,3 +46,4 @@ name2 = "kamal saman nimal \n 45 65 23"
 print(name2.split())
 print(name2.split("\n"))
 print(name2.splitlines())
+
