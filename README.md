@@ -43,3 +43,6 @@ uses of list data type and return values in a list using index. uses of methods 
 
 ### 14. tuple data type
 uses of tuple data type and change list in to tuple. only different in tuple from list is tuple is a immutable data type. we cannot change tuple in runtime.
+
+### 15. set data type
+uses of set data type. used of methods and mathematical operations. add(), update(), remove(), discard(), union(), intersection() and difference()
