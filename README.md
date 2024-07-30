@@ -40,3 +40,6 @@ use methodds - startswith, endswith, replace, join, split, splitlines
 
 ### 13. list data types
 uses of list data type and return values in a list using index. uses of methods to add and remove values to list. append(), extend(), insert(), pop(), remove(), clear()
+
+### 14. tuple data type
+uses of tuple data type and change list in to tuple. only different in tuple from list is tuple is a immutable data type. we cannot change tuple in runtime.
