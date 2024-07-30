@@ -46,3 +46,6 @@ uses of tuple data type and change list in to tuple. only different in tuple fro
 
 ### 15. set data type
 uses of set data type. used of methods and mathematical operations. add(), update(), remove(), discard(), union(), intersection() and difference()
+
+### 16. dictionary data type
+uses of dictionary data type. access values using key value, add single values and multiple values, remove values, clear dictionary.
