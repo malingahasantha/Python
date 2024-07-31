@@ -69,3 +69,7 @@ Create function and pass paramenters to it to get an output
 
 ### 20.1 default arguments and pass dictionary as a parameter
 uses of default arguments and pass dictionary as parameter and display it.
+
+### 21 create class and access the method in the class using objects
+To access a method inside a class we should create a object. We can create objects as many as we want.
+We can call a variable created in the method inside a class using a object as well.
