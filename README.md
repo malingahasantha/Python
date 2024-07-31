@@ -60,3 +60,12 @@ uses of for loop. return values in a list and a dictionary.
 ### 18. continue and break statements
 In continue when the condition is true in if statement or what ever state skip once that moment
 In break, when the condition is true the it stops the program
+
+### 19. break and continue statements
+uses of break and continue statements in loop
+
+### 20. functions and create function
+Create function and pass paramenters to it to get an output
+
+### 20.1 default arguments and pass dictionary as a parameter
+uses of default arguments and pass dictionary as parameter and display it.
