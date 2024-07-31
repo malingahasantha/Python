@@ -49,3 +49,14 @@ uses of set data type. used of methods and mathematical operations. add(), updat
 
 ### 16. dictionary data type
 uses of dictionary data type. access values using key value, add single values and multiple values, remove values, clear dictionary.
+
+### 17. while loop
+uses of while loop. excercise : get 5 input values from user and then return the sum of the input values.
+we should have define a condition and while loop runs only the condition is True and until the condition is True.
+
+### 18. for loop
+uses of for loop. return values in a list and a dictionary.
+
+### 18. continue and break statements
+In continue when the condition is true in if statement or what ever state skip once that moment
+In break, when the condition is true the it stops the program
