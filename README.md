@@ -76,3 +76,15 @@ We can call a variable created in the method inside a class using a object as we
 
 ### 22. __init__ method
 uses of __init__ method. speciality of the ini method is everytime we create an object this method runs automatically.
+
+### 23. encapsulation
+private variables and methods. access thoese private methods and variables through public methods.
+
+### 24. inheritance
+There are three types of inheritance
+ Single level inheritance - Access a parent/super class by a child/sub class
+ Multiple inheritance - Access multiple parent classes by a child class
+ Multi level inheritance - Access a parent class via another parent class by a child class
+
+ ### 25. exercise in inheritance
+ Buy fruits from a shop and calculate total cost for the fruits we bought.
