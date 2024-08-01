@@ -88,3 +88,8 @@ There are three types of inheritance
 
  ### 25. exercise in inheritance
  Buy fruits from a shop and calculate total cost for the fruits we bought.
+
+ ### 26. create module and do exercise to create a cal
+
+ ### 27. datetime module
+ uses of datetime module. various methods of printing date and time.
