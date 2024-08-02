@@ -93,3 +93,9 @@ There are three types of inheritance
 
  ### 27. datetime module
  uses of datetime module. various methods of printing date and time.
+
+ ### 28. factorial
+calculate a factorial value of a given number exercise.
+
+### 29. recursion
+calculate factorial value using recursion method.
