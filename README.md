@@ -99,3 +99,6 @@ calculate a factorial value of a given number exercise.
 
 ### 29. recursion
 calculate factorial value using recursion method.
+
+### 30. lambda function
+lambda function and use lambda function inside a function
