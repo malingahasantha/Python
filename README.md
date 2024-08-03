@@ -102,3 +102,9 @@ calculate factorial value using recursion method.
 
 ### 30. lambda function
 lambda function and use lambda function inside a function
+
+### 31. filter, map and reduce functions
+uses of filter, map and reduce functions and uses of these functions with lambda function
+
+### 32. decorator function
+use of decorator function and provide a function as a parametor inside a function.
