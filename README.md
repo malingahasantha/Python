@@ -108,3 +108,12 @@ uses of filter, map and reduce functions and uses of these functions with lambda
 
 ### 32. decorator function
 use of decorator function and provide a function as a parametor inside a function.
+
+### 33. name variable
+Create 2 Modules and call function in Module1 from Module2
+
+### 34. Pholymorphism
+Method Overriding
+Method Overloading
+Operator Overloading
+
