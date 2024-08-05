@@ -122,3 +122,9 @@ use of try: except: finally: blocks
 
 ### 36. arrays
 uses of arrays and types of arrays, join array
+
+### 37. iterators
+uses of iterators
+
+### 38. create own iterator
+create own iterator to print even values
