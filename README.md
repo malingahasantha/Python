@@ -112,8 +112,10 @@ use of decorator function and provide a function as a parametor inside a functio
 ### 33. name variable
 Create 2 Modules and call function in Module1 from Module2
 
-### 34. Pholymorphism
+### 34. pholymorphism
 Method Overriding
 Method Overloading
 Operator Overloading
 
+### 35. exception handling
+use of try: except: finally: blocks
