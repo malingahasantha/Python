@@ -119,3 +119,6 @@ Operator Overloading
 
 ### 35. exception handling
 use of try: except: finally: blocks
+
+### 36. arrays
+uses of arrays and types of arrays, join array
