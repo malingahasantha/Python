@@ -14,3 +14,6 @@ myObj = myit()
 itr = iter(myObj)
 
 print(next(itr))
+print(next(itr))
+print(next(itr))
+print(next(itr))
