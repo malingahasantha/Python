@@ -131,3 +131,6 @@ create own iterator to print even values
 
 ### 39. generators
 create generator and create fibonacci series with generator
+
+### 40. multithreading
+import threading module and sleep method from time module and use threading with two functions
