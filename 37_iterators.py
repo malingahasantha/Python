@@ -1,10 +1,12 @@
 #normally we can access elements one by one using index numbers. But when it come to sets it cannot access by indexes. here we can use iterators.
 lst = {3,5,7,9,11}
 
-itr = iter(lst)
+itr = iter(lst) #convert set to an iterator
 
 print(next(itr))
 print(next(itr))
+print(itr.__next__())
+print(itr.__next__())
 #only one value we can get from iterators. 
 
 print("\n")

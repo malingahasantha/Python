@@ -128,3 +128,6 @@ uses of iterators
 
 ### 38. create own iterator
 create own iterator to print even values
+
+### 39. generators
+create generator and create fibonacci series with generator
