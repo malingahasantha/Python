@@ -1,5 +1,5 @@
 """ 
-Q1. Given two arrays, write a python function to returnthe intersection of the two? 
+Q1. Given two arrays, write a python function to return the intersection of the two? 
 For example, x = [1,5,9,0] and y = [3,0,2,9] it should return [0,9]
 """
 import array
