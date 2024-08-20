@@ -5,7 +5,8 @@ create function to send the email
 """
 
 from email.message import EmailMessage
-from app2 import password
+from app2 import password   #import stored password generated using app password in google account
+# this is saved in a different file as a variable to increase security.
 import ssl
 import smtplib
 
