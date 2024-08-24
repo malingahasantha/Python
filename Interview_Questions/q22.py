@@ -4,14 +4,15 @@ import cx_Oracle
 try:
     conStr = "hr/hr@localhost:1521/xe"  #connection string
     conn = cx_Oracle.connect(conStr)    #create connection
+    # <username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>
 
 except cx_Oracle.DatabaseError as er:
     print('Error while connecting to the database:', er)
 
 else:
     try:
-        cur = conn.cursor()
-        #cursor() is required to execute a SQL query and to provide results some special object
+        cur = conn.cursor() # get a cursor object from the connection
+        # cursor() is required to execute a SQL query and to provide results some special object
 
         # fetchall() is used to fetch all records from result set
         cur.execute('select * from customer')
@@ -36,12 +37,12 @@ else:
     # finally:
     #     if(cur):
     #         cur.close()
-    
+
 finally:
     if(cur):
         cur.close()
     if(conn):
         conn.close()
-#After all done it is mandatory to close all operations.
+# After all done it is mandatory to close all operations.
 
 print('execution completed!')
