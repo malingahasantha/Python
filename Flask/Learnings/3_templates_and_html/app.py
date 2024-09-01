@@ -9,5 +9,11 @@ def index():
     mylist = [10,20,30,40,50,60]
     return render_template('index.html', pass_1=myvalue, pass_2=myresult, pass_3=mylist)
 
+@app.route('/filter')
+def filter():
+    some_text = 'Hello World'
+    return render_template('filter.html', pass_some_text=some_text)
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
