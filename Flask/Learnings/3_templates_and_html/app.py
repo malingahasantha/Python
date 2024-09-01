@@ -18,6 +18,10 @@ def filter():
 def reverse_string(s):
     return s[::-1] # This is how you reverse string in python
 
+@app.template_filter('repeat')
+def repeat(s, times=2):
+    return s * times
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
