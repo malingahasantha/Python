@@ -4,4 +4,9 @@
 {% block content %}
     <h1>Filters</h1>
     <p>{{ pass_some_text }}</p>
+    <p>{{ pass_some_text | upper }}</p>
+    <p>{{ pass_some_text | lower }}</p>
+    <p>{{ pass_some_text | title }}</p>
+    <p>{{ pass_some_text | replace('l','L') }}</p>
+    <p>{{ pass_some_text | reverse_string }}</p>
 {% endblock %}

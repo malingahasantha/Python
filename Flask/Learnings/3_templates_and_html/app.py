@@ -14,6 +14,10 @@ def filter():
     some_text = 'Hello World'
     return render_template('filter.html', pass_some_text=some_text)
 
+@app.template_filter('reverse_string')
+def reverse_string(s):
+    return s[::-1] # This is how you reverse string in python
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
