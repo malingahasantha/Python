@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+import pandas as pd
+from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__, template_folder = 'templates')
 
@@ -15,9 +16,15 @@ def index():
         else:
             return 'Failed'
 
-@app.route('/file_upload')
+@app.route('/file_upload', methods=['POST'])
 def file_upload():
-    return ""
+    file = request.files['file']
+
+    if file.content_type == 'text/plain':
+        return file.read().decode()
+    elif file.content_type == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' or file.content_type == 'application/vnd.ms-excel':
+        df = pd.read_excel(file)
+        return df.to_html()
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
