@@ -1,5 +1,5 @@
 import pandas as pd
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, Response, redirect, url_for
 
 app = Flask(__name__, template_folder = 'templates')
 
@@ -25,6 +25,24 @@ def file_upload():
     elif file.content_type == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' or file.content_type == 'application/vnd.ms-excel':
         df = pd.read_excel(file)
         return df.to_html()
+
+# Convert to csv
+
+@app.route('/convert_csv', methods=['POST'])
+def convert_csv():
+    file = request.files['file']
+
+    df = pd.read_excel(file)
+
+    response = Response(
+        df.to_csv(),
+        mimetype='text/csv',
+        headers={
+            'Content-Disposition': 'attachment; filename=result.csv'
+        }
+    )
+
+    return response
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
