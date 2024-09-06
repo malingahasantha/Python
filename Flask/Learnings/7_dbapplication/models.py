@@ -8,5 +8,5 @@ class Person(db.Model):
     age = db.Column(db.Integer)
     job = db.Column(db.Text)
 
-    def __repr__(seld):
+    def __repr__(self):
         return f'Person with name {self.name} and age {self.age}'
