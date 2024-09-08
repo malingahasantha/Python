@@ -14,7 +14,8 @@ def register_routes(app, db, bcrypt):
     
     @app.route('/login/<uid>')
     def login(uid):
-        login_user(uid)
+        user = User.query.get(uid)
+        login_user(user)
         return 'Success'
 
     @app.route('/logout')
